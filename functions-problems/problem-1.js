@@ -8,16 +8,16 @@
 
 let findLongestWord = (string) => {
   let splitString = string.split(" ");
-  let longestWord = 0
+  let longestWord = splitString[0];
   //splitString variable stores whatever string we enter, which is then split() into an array.
 
   for(let i = 0; i < splitString.length; i++){
-    if(splitString[i].length > longestWord){
-      longestWord = splitString[i].length;
+    if(splitString[i].length > longestWord.length){
+      longestWord = splitString[i];
     }
   }
   return longestWord;
 }
-//if splitString's current index is greater than longestWord, longestWord stores that value
+//
 
 console.log(findLongestWord('this is a relatively short sentence!'));
