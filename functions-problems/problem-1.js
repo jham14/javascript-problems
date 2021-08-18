@@ -1,4 +1,4 @@
-// Find longest word in a string
+// Functions problem-1 - Find the longest word in a string
 
 //let splitString = "this is a relatively short little sentence".split(" ");
 
@@ -9,7 +9,8 @@
 let findLongestWord = (string) => {
   let splitString = string.split(" ");
   let longestWord = splitString[0];
-  //splitString variable stores whatever string we enter, which is then split() into an array.
+  //splitString variable stores whatever string we enter, which is then split() into an array. longestWord is currently first index in new Array (this)
+  console.log(longestWord);//logs this
 
   for(let i = 0; i < splitString.length; i++){
     if(splitString[i].length > longestWord.length){
@@ -17,7 +18,7 @@ let findLongestWord = (string) => {
     }
   }
   return longestWord;
-}
-//
+};
+//logs relatively
 
 console.log(findLongestWord('this is a relatively short sentence!'));
