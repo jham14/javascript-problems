@@ -2,7 +2,7 @@
 
 //using forEach for this problem:
 
-let letterCheck = (string, letter) => {
+const letterCheck = (string, letter) => {
   let splitString = string.split(" ");
   let letterCount = 0;
 

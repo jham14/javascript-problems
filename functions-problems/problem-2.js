@@ -2,7 +2,7 @@
 
 //using for..of which works on strings and arrays:
 
-let getVowels = (string) => {
+const getVowels = (string) => {
   const vowels = ["a", "e", "i", "o", "u"];
   let vowelsCount = 0
     //console.log(string);//'testing for any vowels here'

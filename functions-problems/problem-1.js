@@ -6,7 +6,7 @@
 //empty string with a SPACE in .split() - each word now an array element
 
 
-let findLongestWord = (string) => {
+const findLongestWord = (string) => {
   let splitString = string.split(" ");
   let longestWord = splitString[0];
   //splitString variable stores whatever string we enter, which is then split() into an array. longestWord is currently first index in new Array (this)
