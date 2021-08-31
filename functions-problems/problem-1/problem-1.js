@@ -9,7 +9,8 @@
 const findLongestWord = (string) => {
   let splitString = string.split(" ");
   let longestWord = splitString[0];
-  //splitString variable stores whatever string we enter, which is then split() into an array. longestWord is currently first index in new Array (this)
+  //splitString variable stores whatever string we enter, which is then split() into an array.
+  //longestWord is currently first index in new Array ('this')
 
   for(let i = 0; i < splitString.length; i++){
     if(splitString[i].length > longestWord.length){
