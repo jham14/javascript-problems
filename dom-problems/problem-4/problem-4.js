@@ -3,14 +3,11 @@
 
 function listItems () {
   let list = document.querySelectorAll('.cheese');
-    list.forEach((i) => {
-      console.log(i.text);
-    })
+    list.forEach(i => console.log(i.text))
   };
 
 const cheese = listItems();
 
 
-//1: listItems function has a dropdown variable that stores all elements with the cheese class
-//2: forEach element in dropdown, log the element, including inner text
-//3: finally, return dropdown to view the full node list
+//1: listItems function has variable 'list' that stores all elements with the cheese class
+//2: forEach element in list, log the element's inner text
