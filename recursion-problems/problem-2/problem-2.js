@@ -1,6 +1,6 @@
 //Write a JavaScript program to compute the sum of an array of integers.
 
-var arraySum = function(array) {
+const arraySum = function(array) {
   if (array.length === 1) {
     return array[0];
   }

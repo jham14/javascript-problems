@@ -9,7 +9,7 @@ const people = [
   {firstName: 'richard', lastName: 'bacon', age: 30}
 ];
 
-let names = people.map(person => [person.firstName + ' ' + person.lastName]);
+let names = people.map(person => person.firstName + ' ' + person.lastName);
 console.log(names);
 
 //1: people stores an Array containing 4 elements, all of which are objects with three properties.

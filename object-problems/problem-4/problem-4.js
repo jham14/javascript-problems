@@ -13,5 +13,5 @@ let keyFindAge = user.hasOwnProperty('age');
 console.log(keyFindAge);
 
 //1: user object contains 5 keys
-//2: keyFindAge stores the hasOwnProperty() method on user - this accepts the argument of argument of age
+//2: keyFindAge stores the hasOwnProperty() method on user - this accepts the argument of age
 //3: keyFindAge logs true as hasOwnProperty() is a boolean which returns true if the argument matches a key in the user Object.
